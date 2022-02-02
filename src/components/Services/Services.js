@@ -40,7 +40,7 @@ const Services = () => {
         <Card
           icon={Trade}
           title1="Trade"
-          desc="Invest and make a profit with no looses at all. With BTC you get unlimited trading with maximum return."
+          desc="Invest and make a profit with no loses at all. With BTC you get unlimited trading with maximum return."
         />
 
         {/* card 3 */}

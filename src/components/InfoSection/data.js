@@ -29,7 +29,7 @@ export const homeObjTwo = {
   headline: "Login to your account at any time",
   description:
     "We have you covered no matter where you are located.All you need is an internet connection and a phone or computer.",
-  buttonLabel: "Learn More",
+  buttonLabel: "How To Trade",
   imgStart: true,
   img: ImageTwo,
   alt: "",

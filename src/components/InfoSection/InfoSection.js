@@ -56,7 +56,7 @@ const InfoSection = ({
                 {/* btn wrap */}
                 <div className="flex justify-start">
                   <Button
-                    to="home"
+                    to="howToTrade"
                     title={buttonLabel}
                     primary="true"
                     dark="true"
