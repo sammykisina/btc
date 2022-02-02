@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Baloo";
+  src: local("Baloo"),
+    url(./fonts/Baloo_Bhaijaan_2/static/BalooBhaijaan2-Regular.ttf)
+      format("truetype");
+}
+
+@layer base {
+  body {
+    font-family: "Baloo";
+  }
+
+  ::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+  }
+  ::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: #edf2f7;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #cbd5e0;
+    border-radius: 100vh;
+    border: 3px solid #edf2f7;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a0aec0;
+  }
+}
+
+@layer components {
+  .active {
+    border-bottom: 3px solid #01bf71;
+  }
+
+  .toggle-icon {
+    transform: translate(-100%, 100%);
+  }
+
+  .sidebarLinks {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 50px);
+    text-align: center;
+  }
+
+  .sidebarTranslation {
+    transition: 0.3s ease-in-out;
+  }
+
+  .signUpTransition {
+    transition: all 0.2s ease-in-out;
+  }
+
+  .navbarTransition {
+    transition: all 0.3s ease-in;
+  }
+
+  .heroVideoBg {
+    -o-object-fit: cover;
+    object-fit: cover;
+    background: #232a34;
+  }
+
+  .footerTransition {
+    transition: 0.3s ease-out;
+  }
+
+  .footer_link {
+    @apply text-[#fff] mb-[0.5rem] text-[14px]  hover:text-[#01bf71];
+  }
+
+  .btnTransition {
+    transition: all 0.2s ease-in-out;
+  }
+
+  .underline {
+    width: 5rem;
+    height: 0.25rem;
+    margin-bottom: 1.25rem;
+    background: #01bf71;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hoverAnimation {
+    @apply hover:bg-[#ffbbd6] hover:bg-opacity-10 rounded-full cursor-pointer  transition duration-200 ease-out;
+  }
+
+  .heroContent::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.2) 0%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
+    z-index: 2;
+  }
+
+  .infoRow {
+    display: grid;
+    grid-auto-columns: minmax(auto, 1fr);
+    align-items: center;
+  }
+
+  .info_col2_col1 {
+    grid-template-areas: "col2 col1";
+  }
+
+  .info_col1_col2 {
+    grid-template-areas: "col1 col2";
+  }
+
+  .info_sm_col1_col2 {
+    grid-template-areas: "col1" "col2";
+  }
+
+  .info_sm_col1_col1_col2_col2 {
+    grid-template-areas: "col1 col1" "col2 col2";
+  }
+
+  .colOneGridArea {
+    grid-area: col1;
+  }
+}
