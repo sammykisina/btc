@@ -32,8 +32,7 @@ const HeroSection = () => {
         </div>
         {/* hero paragraph */}
         <div className="mt-[24px] text-[#fff]  text-center max-w-[600px] text-[18px] sm:text-[24px] md:text-[24px]">
-          Sign up for a new account today and receive 5 usdt as a start up
-          capital.
+          Sign up for a new account today and earn profits each single day.
         </div>
 
         {/* hero brn wrapper */}
