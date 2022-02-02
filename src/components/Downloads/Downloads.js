@@ -82,7 +82,7 @@ const Downloads = () => {
             }
           >
             <div className="w-[200px] border flex justify-center py-1 px-2 items-center gap-4 rounded-full">
-              <span>Binance</span> <SiBinance className="text-yellow-500" />
+              <SiBinance className="text-yellow-500" />
             </div>
           </div>
           <div
