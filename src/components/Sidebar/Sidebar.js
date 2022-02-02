@@ -1,6 +1,6 @@
 import React from "react";
 import { FaTimes } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import { useGlobalContext } from "../../store/context";
 import SidebarLink from "./SidebarLink";
 
@@ -39,9 +39,15 @@ function Sidebar() {
           <div className="flex items-center justify-center">
             <Link
               className="rounded-full bg-[#01bf71] whitespace-nowrap py-[10px] px-[64px] text-[#010606] text-[16px] outline-none cursor-pointer signUpTransition hover:bg-[#fff] hover:text-[#010606]"
-              to="/singin"
+              to="downloads"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+              exact="true"
+              onClick={() => closeSidebarModal()}
             >
-              Sign In
+              Download
             </Link>
           </div>
         </div>

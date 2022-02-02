@@ -60,7 +60,7 @@ const Navbar = () => {
             <NavLink to="signup" title="Sign Up" />
           </ul>
 
-          {/* the sign in button */}
+          {/* the download in button */}
           <div className="hidden sm:flex items-center">
             <Link
               className="rounded-full bg-[#01bf71] whitespace-nowrap py-[6px] px-[22px] text-[#010606] text-base outline-none cursor-pointer signUpTransition hover:bg-[#fff] hover:text-[#010606] "
