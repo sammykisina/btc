@@ -8,7 +8,7 @@ const HowToTrade = () => {
         {/* info row */}
         <div className="md:grid grid-cols-2">
           {/* column 1 */}
-          <div className="mb-[15px] px-[15px] col-span-1">
+          <div className=" px-[15px] col-span-1">
             {/* text wrapper */}
             <div className="max-w-[540px] pt-0 pb-[60px]">
               {/* top line */}
@@ -49,9 +49,13 @@ const HowToTrade = () => {
 
           {/* column 2 */}
           {/* img wrap */}
-          <div className="max-w-[500px] h-[400px] col-span-1 flex justify-center">
+          <div className="h-[150px] md:h-[400px] col-span-1 flex justify-center">
             {/* img */}
-            <img className="w-[400px] mb-[10px] pr-0" src={Trading} alt="" />
+            <img
+              className="h-[150px] md:h-[400px] mb-[10px] pr-0"
+              src={Trading}
+              alt=""
+            />
           </div>
         </div>
       </div>
