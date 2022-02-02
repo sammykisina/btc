@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import NavLink from "./NavLink";
 import { useGlobalContext } from "../../store/context";
-import { animateScroll as scroll } from "react-scroll";
+import { animateScroll as scroll, Link } from "react-scroll";
 
 const Navbar = () => {
   const { openSidebarModal } = useGlobalContext();
@@ -63,10 +63,15 @@ const Navbar = () => {
           {/* the sign in button */}
           <div className="hidden sm:flex items-center">
             <Link
-              className="rounded-full bg-[#01bf71] whitespace-nowrap py-[6px] px-[22px] text-[#010606] text-base outline-none cursor-pointer signUpTransition hover:bg-[#fff] hover:text-[#010606]"
-              to="/singin"
+              className="rounded-full bg-[#01bf71] whitespace-nowrap py-[6px] px-[22px] text-[#010606] text-base outline-none cursor-pointer signUpTransition hover:bg-[#fff] hover:text-[#010606] "
+              to="downloads"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+              exact="true"
             >
-              Sign In
+              Downloads
             </Link>
           </div>
         </div>

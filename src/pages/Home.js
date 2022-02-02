@@ -11,6 +11,7 @@ import {
 import Services from "../components/Services/Services";
 import Footer from "../components/Footer/Footer";
 import SignUp from "../components/SignUp/SignUp";
+import Downloads from "../components/Downloads/Downloads";
 
 function Home() {
   return (
@@ -22,6 +23,7 @@ function Home() {
       <InfoSection {...homeObjTwo} />
       <Services />
       <SignUp {...homeObjThree} />
+      <Downloads />
       <Footer />
     </>
   );
