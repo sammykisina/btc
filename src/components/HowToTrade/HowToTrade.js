@@ -4,7 +4,7 @@ import Trading from "../../images/trading.svg";
 const HowToTrade = () => {
   return (
     <div id="howToTrade" className="text-[#]  bg-[#f9f9f9] py-[100px]">
-      <div className="grid justify-center z-[1] h-[900px] md:h-[700px] lg:h-[600px] w-full max-w-[1100px] mx-auto px-[24px]">
+      <div className="grid justify-center z-[1] h-[999px] md:h-[800px] lg:h-[650px] w-full max-w-[1100px] mx-auto px-[24px]">
         {/* info row */}
         <div className="md:grid grid-cols-2">
           {/* column 1 */}
@@ -43,6 +43,10 @@ const HowToTrade = () => {
                 After that relax and wait for the time elapse.Remember you won't
                 make an order when 15secs are remaining.You only need to confirm
                 order only once and wait for the next suggestion.
+                <br />
+                <br />
+                NB: Suggestions run for 7 rounds but after each win, you are
+                supposed to start again from round 1 (0.1)
               </div>
             </div>
           </div>

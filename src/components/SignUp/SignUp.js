@@ -87,7 +87,7 @@ const SignUp = ({
                     <Procedure
                       title="Get Google Authenticator Code"
                       number="4"
-                      desc="Because BTC cares more about the security of your funds,we take it a step further with Google Authenticator.Scan your BTC QR Code to ensure that you can't lose funds to scanners or thieves.If not able to scan the QR code, copy the given marked red letters and paste it on your Google Authenticator and enter the name btc.gtoupwin to get your code."
+                      desc="Because BTC cares more about the security of your funds,we take it a step further with Google Authenticator.Scan your BTC QR Code to ensure that you can't lose funds to scanners or thieves.If not able to scan the QR code,select Setup Key: on account name you write you bt ID, for the key you will paste the Red back up key.DO NOT DELETE OR UNINSTALL THE GOOGLE AUTHENTICATOR."
                     />
                     <Procedure
                       title="Bid Binance wallet address"
