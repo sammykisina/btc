@@ -41,7 +41,7 @@ const Navbar = () => {
             to="/"
             className="text-[#fff] flex flex-start cursor-pointer items-center ml-6 font-bold"
           >
-            dolla
+            cryptowin
           </Link>
 
           {/* toggle menu */}

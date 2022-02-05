@@ -9,8 +9,7 @@ export const homeObjOne = {
   lightTextDesc: true,
   title: "BitStream Circle",
   headline: "Unlimited Transaction with zero fees",
-  description:
-    "Get access to BTC app or Web App that allows you to make unlimited trading transactions without getting charged any fees.",
+  description: "about",
   buttonLabel: "Show me How",
   imgStart: true,
   img: ImageOne,

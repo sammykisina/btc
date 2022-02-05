@@ -1,6 +1,6 @@
 import { FaPhoneAlt, FaTelegram } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
-import { SiFacebook, SiTelegram, SiWhatsapp } from "react-icons/si";
+import { SiTelegram } from "react-icons/si";
 import { openLink } from "../../utils/services";
 import { animateScroll as scroll } from "react-scroll";
 
@@ -33,7 +33,7 @@ function Footer() {
                 <div className="hoverAnimation p-0 w-10 h-10 flex justify-center items-center">
                   <FaPhoneAlt className="w-7 h-7" />
                 </div>
-                <span>+254723811947</span>
+                <span>+254753302107</span>
               </div>
 
               {/* 2 */}
@@ -41,7 +41,7 @@ function Footer() {
                 <div className="hoverAnimation w-10 h-10 flex justify-center items-center ">
                   <HiMail className="w-7 h-7" />
                 </div>
-                <span>sheila@gmail.com</span>
+                <span>sheilachelagat123@gmail.com</span>
               </div>
 
               {/* 3 */}
@@ -65,7 +65,7 @@ function Footer() {
 
             <div className="mt-2">
               <div className="w-full flex justify-center">
-                <div
+                {/* <div
                   className="hoverAnimation w-10 h-10 flex justify-center items-center"
                   onClick={() =>
                     openLink(
@@ -74,14 +74,14 @@ function Footer() {
                   }
                 >
                   <SiFacebook />
-                </div>
+                </div> */}
 
-                <div
+                {/* <div
                   className="hoverAnimation w-10 h-10 flex justify-center items-center"
                   onClick={() => openLink("https://wa.me/254723811947")}
                 >
                   <SiWhatsapp />
-                </div>
+                </div> */}
 
                 <div
                   className="hoverAnimation w-10 h-10 flex justify-center items-center"

@@ -74,7 +74,7 @@ const SignUp = ({
                     <Procedure
                       title="Register In BTC"
                       number="2"
-                      desc="Use the BTC app or BTC web with the link www.btcgroup.win/index/login/register.html?fid=358357 to create your BTC account with just few clicks. This will include your phone number and a strong password to ensure security of your funds.DONT SHARE YOUR PASSWORD WITH ANYBODY."
+                      desc="Use the BTC app or BTC web with the link www.btcgroup.win/index/login/register.html?fid=371163 to create your BTC account with just few clicks. This will include your phone number and a strong password to ensure security of your funds.DONT SHARE YOUR PASSWORD WITH ANYBODY."
                     />
                   </div>
 

@@ -24,7 +24,7 @@ const InfoSection = ({
         } `}
       >
         {/* info wrapper */}
-        <div className="grid justify-center z-[1] h-[700px] w-full max-w-[1100px] mx-auto px-[24px]">
+        <div className="grid justify-center z-[1] h-[1300px] sm:h-[1200px] md:h-[940px] w-full max-w-[1100px] mx-auto px-[24px]">
           {/* info row */}
           <div className="md:grid grid-cols-2">
             {/* column 1 */}
@@ -51,7 +51,50 @@ const InfoSection = ({
                     darkText ? "text-[#010606]" : "text-[#fff]"
                   }`}
                 >
-                  {description}
+                  {description === "about" ? (
+                    <div>
+                      BT platform has a strong financial background,stable and
+                      safe operating system, top-level technical team to ensure
+                      the safety of your funds.
+                      <br /> <br />
+                      <span className="text-[#01bf71] text-[13px] leading-[10px] font-[700] uppercase mb-[16px]">
+                        Security
+                      </span>
+                      <br />
+                      BitStream Circle offers a Two way authentication system to
+                      ensure that your funds are safe from untrusted parties
+                      while in the platform.With the trusted Google
+                      Authenticator in place at every Login Phase and Withdraw
+                      your funds have never been more safer!
+                      <br />
+                      <br />
+                      <span className="text-[#01bf71] text-[13px] leading-[10px] font-[700] uppercase mb-[16px]">
+                        Analysis
+                      </span>
+                      <br />
+                      To ensure that all our users gain from their daily
+                      investments, we have a dedicated team of experts who take
+                      their time to analysis the market and give accurate
+                      suggestions to all our users before trading.
+                      <br />
+                      <br />
+                      <span className="text-[#01bf71] text-[13px] leading-[10px] font-[700] uppercase mb-[16px]">
+                        Online Service
+                      </span>
+                      <br />
+                      Are you stuck? Do you have any question about any thing in
+                      BTC?Contact our online support team who are ready to
+                      help.Chat with our help team live and ask any thing and
+                      they will offer you the help you need within seconds.
+                      <br />
+                      <br />
+                      Get access to BTC app or Web App that allows you to make
+                      unlimited trading transactions without getting charged any
+                      fees.
+                    </div>
+                  ) : (
+                    description
+                  )}
                 </p>
                 {/* btn wrap */}
                 <div className="flex justify-start">
