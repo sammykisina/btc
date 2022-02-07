@@ -62,7 +62,7 @@ const SignUp = ({
                       )
                     }
                   >
-                    Register Now noew
+                    Register Now
                   </div>
                 </div>
               </div>
