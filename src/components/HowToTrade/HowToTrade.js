@@ -45,8 +45,10 @@ const HowToTrade = () => {
                 order only once and wait for the next suggestion.
                 <br />
                 <br />
-                NB: Suggestions run for 7 rounds but after each win, you are
-                supposed to start again from round 1 (0.1)
+                <span className="text-[#01bf71]">
+                  NB: Suggestions run for 7 rounds but after each win, you are
+                  supposed to start again from round 1 (0.1)
+                </span>
               </div>
             </div>
           </div>
