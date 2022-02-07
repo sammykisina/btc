@@ -1,5 +1,5 @@
 import React from "react";
-// import Button from "../ui/Button";
+import { openLink } from "../../utils/services";
 import Procedure from "./Procedure";
 
 const SignUp = ({
@@ -42,6 +42,7 @@ const SignUp = ({
                 >
                   {headline}
                 </div>
+
                 {/* subtitle */}
                 <p
                   className={`max-w-[440px] mb-[5px] text-[18px] leading-[24px] ${
@@ -50,6 +51,20 @@ const SignUp = ({
                 >
                   {description}
                 </p>
+
+                {/* get started button */}
+                <div className="flex justify-start items-center">
+                  <div
+                    className="w-1/3 flex justify-center items-center py-2 bg-[#01bf71] text-[#010606] cursor-pointer rounded-full hover:text-white shadow-lg my-2"
+                    onClick={() =>
+                      openLink(
+                        "https://www.btcgroup.win/index/login/register.html?fid=371163"
+                      )
+                    }
+                  >
+                    Register Now
+                  </div>
+                </div>
               </div>
             </div>
 
