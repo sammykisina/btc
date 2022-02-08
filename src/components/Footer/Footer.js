@@ -33,7 +33,7 @@ function Footer() {
                 <div className="hoverAnimation p-0 w-10 h-10 flex justify-center items-center">
                   <FaPhoneAlt className="w-7 h-7" />
                 </div>
-                <span>+254753302107</span>
+                <span>+254780208950</span>
               </div>
 
               {/* 2 */}
@@ -47,7 +47,7 @@ function Footer() {
               {/* 3 */}
               <div
                 className="flex items-center gap-2 cursor-pointer "
-                onClick={() => openLink("https://t.me/donre")}
+                onClick={() => openLink("https://t.me/Sbtstream")}
               >
                 <div className="hoverAnimation w-10 h-10 flex justify-center items-center">
                   <FaTelegram className="w-7 h-7" />
@@ -85,7 +85,7 @@ function Footer() {
 
                 <div
                   className="hoverAnimation w-10 h-10 flex justify-center items-center"
-                  onClick={() => openLink("https://t.me/donre")}
+                  onClick={() => openLink("https://t.me/Sbtstream")}
                 >
                   <SiTelegram />
                 </div>

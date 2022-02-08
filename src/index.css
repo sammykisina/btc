@@ -92,7 +92,7 @@
   }
 
   .hoverAnimation {
-    @apply hover:bg-[#ffbbd6] hover:bg-opacity-10 rounded-full cursor-pointer  transition duration-200 ease-out;
+    @apply hover:bg-[#01bf71] hover:bg-opacity-10 rounded-full cursor-pointer  transition duration-200 ease-out;
   }
 
   .heroContent::before {
